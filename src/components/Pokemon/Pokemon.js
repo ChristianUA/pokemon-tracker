@@ -26,9 +26,7 @@ const Pokemon = (props) => {
         <Card className='m-4' bg='dark' style={{ width: '30rem' }}>
             <Row noGutters={true} >
                 <Col xs="4">
-                    <img height="160" width="160" alt={pokemon && pokemon.name} src={pokemon &&
-                            pokemon.sprites &&
-                            pokemon.sprites.front_default} ></img>
+                    <img height="160" width="160" alt={pokemon.name} src={pokemon.sprites.front_default} ></img>
                 </Col>
                 <Col md="auto"> 
                     <Card.Body>
